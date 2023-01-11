@@ -14,5 +14,5 @@ void main()
     s += d;
     num = num / 10;
     }
-printf("Sum of digits in %d is %d", a, s);
+printf("\nSum of digits in %d is %d", a, s);
 }

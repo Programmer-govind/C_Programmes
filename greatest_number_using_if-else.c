@@ -1,8 +1,8 @@
 //Program to get the greatest number among three numbers
 
 #include <stdio.h>
-#include <math.h>
-int main()
+#include <conio.h>
+void main()
 {
     int a, b, c;
     printf("Enter first number :");
@@ -13,16 +13,16 @@ int main()
     scanf("%d", &c);
     if (a > b && a > c)
     {
-        printf("%d is greatest number", a);
+        printf("\n%d is greatest number", a);
     }
     else
     {
         if (b > a && b > c)
-            {printf("%d is greatest number", b);}
+            {printf("\n%d is greatest number", b);}
     
 else
         if (c > a && c > b)
-            {printf("%d is greatest number", c);}
+            {printf("%\nd is greatest number", c);}
     }
-    return 0;
+    getch();
 }
